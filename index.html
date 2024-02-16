@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rock Paper Pencil Scissors</title>
+</head>
+<body>
+    <div class="title">
+        <p><h1>Rock Paper Pencil Scissors</h1></p>
+    </div>
+    <div class="contents">
+        <button id="rock" class="btn" onclick="playGame('rock')"><img src="./images/rock.png" alt="Rock" class="btnrock"></button>
+        <button id="paper" class="btn" onclick="playGame('paper')"><img src="./images/paper.png" alt="paper" class="btnpaper"></button>
+        <button id="pencil" class="btn" onclick="playGame('pencil')"><img src="./images/pencil.png" alt="pencil" class="btnpencil"></button>
+        <button id="scissors" class="btn" onclick="playGame('scissors')"><img src="./images/scissors.png" alt="scissors" class="btnscissor"></button>    
+    </div>
+    <p class="results"></p>
+    <p class="moves"></p>
+    <p class="scores"></p>
+    <div class="bottom">
+        <button class="reset" onclick="score.wins=0, score.losses = 0, score.ties = 0;  localStorage.removeItem('score');
+        updateScore();">Reset Score</button>
+    </div>
+    
+    
+<script src="./script.js"></script> 
+</body>
+</html>

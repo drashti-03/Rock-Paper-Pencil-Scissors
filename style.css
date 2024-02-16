@@ -1,0 +1,64 @@
+*{
+    background-color: rgb(16, 8, 8);
+    color: white;
+}
+
+.btn{
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 100px;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnpaper,.btnrock,.btnscissor,.btnpencil {
+    height: 100px;
+    width: 100px;
+}
+.btnpaper {
+    height: 90px;
+    width: 90px;
+    margin-left: -15px;
+}
+.reset {
+    background-color: aliceblue;
+    border: none;
+    color: black;
+    font-weight: bold;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+
+
+.title, p {
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.results,.moves,.scores {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 28px;
+}
+
+.results {
+    font-size: 30px;
+    font-weight: bold;
+}
